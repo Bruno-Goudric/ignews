@@ -6,7 +6,7 @@ export function getPrismicClient(req?: unknown){
         process.env.PRISMIC_ENDPOINT,
         {
             req,
-            accessToken: process.env.PRISMIC_ACCESS_TO
+            accessToken: process.env.PRISMIC_ACCESS_TOKEN
         }
     )
 
